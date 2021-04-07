@@ -34,7 +34,7 @@ public final class Utils {
         return "";
     }
 
-    public static boolean isOwnApp(){
+    public static boolean isOwnApp() {
         String signStr = getSignature();
         return APP_SIGN.equals(signStr);
     }

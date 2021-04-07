@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 boolean cmp = isEquals("0195639014");    /*0123456789==>ssVpPCqinB(测试)  0195639014==>ssBCqpBssP(正确*/
-                Toast.makeText(MainActivity.this,"isEquals Success...", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "isEquals Success...", Toast.LENGTH_SHORT).show();
                 Log.i("jw", "cmp: " + cmp);
             }
         });

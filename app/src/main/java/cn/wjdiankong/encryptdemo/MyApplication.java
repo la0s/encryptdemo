@@ -18,15 +18,15 @@ public class MyApplication extends Application {
         mContext = this.getApplicationContext();
 
         boolean isOwnApp = Utils.isOwnApp();
-        Log.i("jw", "isOwnApp: "+isOwnApp);
-        if(!isOwnApp){
+        Log.i("jw", "isOwnApp: " + isOwnApp);
+        if (!isOwnApp) {
             Log.i("jw", "is not own app...exit app");
             //android.os.Process.killProcess(android.os.Process.myPid());
         }
 
     }
 
-    public static Context getMyContext(){
+    public static Context getMyContext() {
         return mContext;
     }
 
